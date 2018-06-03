@@ -43,7 +43,7 @@
                         </span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img alt="" src="img/logo.png"/>
+                        <img alt="" src="img/Logo_teams/logo_liga.png"/>
                     </a>
                 </div>
                 <!-- end of navbar header-->
@@ -56,22 +56,27 @@
                         </li>
                         <li>
                             <a href="#about">
-                                About
+                                Registrar
                             </a>
                         </li>
                         <li>
                             <a href="#features">
-                                Features
+                                Consultar 
                             </a>
                         </li>
                         <li>
                             <a href="#portfolio">
-                                Portfolio
+                            Actualizar
                             </a>
                         </li>
                         <li>
                             <a href="#connect">
-                                Conect
+                                Eliminar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#connect">
+                                Conectar
                             </a>
                         </li>
                     </ul>
@@ -81,16 +86,19 @@
             <!-- end of container-->
         </nav>
         <!---End of nav-->
-        <div id="home">
-            <img alt="" class="banner" src="img/desktop.png">
+        
+   
+
+    <div id="home">
+            <img alt="" class="banner" src="img/logo-liga-bbva.jpg">
             </img>
         </div>
         <div class="container-fluid text-center" id="about">
             <h1>
-                Welcome to my website
+                Registrar Equipo Favorito
             </h1>
             <h3>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sed expedita aspernatur sequi, autem. Ullam?
+                Si tus piernas no puedes mas pues deja que el corazon juegue por ellas.
             </h3>
             <br>
                 <br>
@@ -101,7 +109,7 @@
                             </p>
                         </div>
                         <div class="col-md-6">
-                            <img id="code" src="img/code.png">
+                            <img id="code" src="img/logo2.png">
                             </img>
                         </div>
                     </div>
@@ -120,24 +128,9 @@
         <img class="banner" src="img/charts.png">
             <div class="container-fluid text-center" id="features">
                 <h2>
-                    Get to know our features
+                    Consultar Equipo
                 </h2>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img alt="" id="icon" src="img/html5.png">
-                            <h3>
-                                HTML5
-                            </h3>
-                        </img>
-                    </div>
-                    <div class="col-sm-4">
-                        <img alt="" id="icon" src="img/Bootstrap.png">
-                            <h3>
-                                BOOSTRAP
-                            </h3>
-                        </img>
-                    </div>
-                    <div class="col-sm-4">
+                 <div class="col-sm-4">
                         <img alt="" id="icon" src="img/css3.png">
                             <h3>
                                 CSS3
