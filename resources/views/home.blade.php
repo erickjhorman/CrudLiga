@@ -72,7 +72,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#connect">
+                            <a href="#eliminar">
                                 Eliminar
                             </a>
                         </li>
@@ -111,7 +111,7 @@
 
      <form> <!-- begining of  the form-->
     <fieldset>
-    <legend id="titulo-formulario">formulario de Registro</legend>
+    <legend id="titulo-formulario">Formulario de Registro</legend>
     <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 nombre">Nombre</label>
     <div class="col-sm-10">
@@ -156,23 +156,23 @@
         <!-- end of container -->
 
         <div class="relleno">
-           
-       </div> 
+
+       </div>
        <div>
         <img class="img-reus" src="img/reus.png">
        </div>
-       
+
        <div class="relleno">
-           
-       </div> 
+
+       </div>
 
             <div class="container-fluid text-center" id="consultar">
                 <h2>
                     Buscar Equipo
                 </h2>
             <div class="col-sm-4">
-                        
-                           
+
+
     <div class="col-sm-10 buscar-equipo ">
       <input type="text" class="form-control" id="equipo" placeholder="Equipo">
     </div>
@@ -180,51 +180,108 @@
     <div class="col-sm-10 buscar-equipo">
       <input type="text" class="form-control" id="equipo" placeholder="Equipo hallado">
      </div>
+         <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary btn-lg">BUSCAR</button>
+    </div>
+  </div>
+
+
                         </img>
                     </div>
                 </div>
                 <!-- end of row-->
-                
+
             </div>
             <!-- end of container -->
             <img class="banner" src="img/people.png">
                 <div class="container-fluid text-center" id="portfolio">
                     <h2>
-                        Check out our Portfolio
+                       Actualizar
                     </h2>
                     <br>
                         <br>
                             <div class="row">
-                                <div class="col-sm-4" >
-                                    <img alt="" id="icon" src="img/icons/camera.png">
-                                    </img>
-                                </div>
-                                <div class="col-sm-4">
-                                    <img alt="" id="icon" src="img/icons/mic.png">
-                                    </img>
-                                </div>
-                                <div class="col-sm-4">
-                                    <img alt="" id="icon" src="img/icons/phone.png">
-                                    </img>
-                                </div>
-                                <div class="col-sm-4 hidden-sm hidden-xs">
-                                    <img alt="" id="icon" src="img/icons/calendar.png">
-                                    </img>
-                                </div>
-                                <div class="col-sm-4 hidden-sm hidden-xs">
-                                    <img alt="" id="icon" src="img/icons/tv.png">
-                                    </img>
-                                </div>
-                                <div class="col-sm-4 hidden-sm hidden-xs ">
-                                    <img alt="" id="icon" src="img/icons/clock.png">
-                                    </img>
-                                </div>
+     <div class="form-actualizar-equipos">
+
+     <form> <!-- begining of  the form-->
+    <fieldset>
+    <legend id="titulo-formulario">Formulario de Actualizacion</legend>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 equipo_buscar">Equipo a buscar</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control"  placeholder="Equipo a buscar">
+    </div>   
+    <label for="inputEmail3" class="col-sm-2 nombre">Nombre</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+    </div>
+    <br>
+    <label for="inputEmail3" class="col-sm-2 Ciudad">Ciudad</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+    </div>
+    <label for="inputEmail3" class="col-sm-2 director">Director</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="director" placeholder="Director">
+    </div>
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Estadio</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="estadio" placeholder="Estadio">
+    </div>
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Año</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="ano" placeholder="Año">
+    </div>
+
+  </div>
+<div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary btn-lg">ACTUALIZAR</button>
+    </div>
+  </div>
+ <fieldset>
+</form>   <!-- end of the form-->
+</div>
+
                             </div>
                             <!-- end of row-->
                         </br>
                     </br>
                 </div>
                 <!-- end of container -->
+
+<!-- beggining of the container of delete action -->
+
+ <div class="relleno_eliminar">
+     <div class="container-fluid text-center" id="eliminar">
+                <h2>
+                    Buscar Equipo
+                </h2>
+            <div class="col-sm-4">
+
+
+    <div class="col-sm-10 buscar-equipo ">
+      <input type="text" class="form-control" id="equipo" placeholder="Equipo">
+    </div>
+
+   
+         <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary btn-lg">ELIMINAR</button>
+    </div>
+  </div>
+
+
+                        </img>
+                    </div>
+                </div>
+                <!-- end of row-->
+
+ </div>      
+
+
+
                 <img alt="" class="banner" src="img/social.png">
                     <footer class="container-fluid text-center" id="connect">
                         <div class="row">
