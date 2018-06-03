@@ -7,11 +7,13 @@
         <meta charset="utf-8">
             <meta content="width=device-width, initial-scale=1" name="viewport">
                 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
                     </script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
                     </script>
                     <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
+
                     </script>
                     <script src="scrolling.js">
                     </script>
@@ -60,8 +62,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#features">
-                                Consultar 
+                            <a href="#consultar">
+                                Consultar
                             </a>
                         </li>
                         <li>
@@ -86,8 +88,8 @@
             <!-- end of container-->
         </nav>
         <!---End of nav-->
-        
-   
+
+
 
     <div id="home">
             <img alt="" class="banner" src="img/logo-liga-bbva.jpg">
@@ -104,48 +106,85 @@
                 <br>
                     <div class="row">
                         <div class="col-md-6">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsum magni quod odit quaerat officiis accusantium sint? Iusto, soluta eligendi est ea eius, asperiores in autem corrupti itaque! Ipsa, expedita.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <img id="code" src="img/logo2.png">
-                            </img>
-                        </div>
-                    </div>
-                    <!-- end of row-->
-                    <br>
-                        <h3>
-                            <i>
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, corrupti?"
-                            </i>
-                        </h3>
-                    </br>
-                </br>
-            </br>
-        </div>
+
+     <div id="form-registrar-equipos">
+
+     <form> <!-- begining of  the form-->
+    <fieldset>
+    <legend id="titulo-formulario">formulario de Registro</legend>
+    <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 nombre">Nombre</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+    </div>
+    <br>
+    <label for="inputEmail3" class="col-sm-2 Ciudad">Ciudad</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+    </div>
+    <label for="inputEmail3" class="col-sm-2 director">Director</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="director" placeholder="Director">
+    </div>
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Estadio</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="estadio" placeholder="Estadio">
+    </div>
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Año</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="ano" placeholder="Año">
+    </div>
+
+  </div>
+
+
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary btn-lg">REGISTRAR</button>
+    </div>
+  </div>
+ <fieldset>
+</form>   <!-- end of the form-->
+</div>
+</div>
+<div class="col-md-6 logo_liga">
+        <img id="code" src="img/logo2.png">
+</div>
+ </div>
+     <!-- end of row-->
+
         <!-- end of container -->
-        <img class="banner" src="img/charts.png">
-            <div class="container-fluid text-center" id="features">
+
+        <div class="relleno">
+           
+       </div> 
+       <div>
+        <img class="img-reus" src="img/reus.png">
+       </div>
+       
+       <div class="relleno">
+           
+       </div> 
+
+            <div class="container-fluid text-center" id="consultar">
                 <h2>
-                    Consultar Equipo
+                    Buscar Equipo
                 </h2>
-                 <div class="col-sm-4">
-                        <img alt="" id="icon" src="img/css3.png">
-                            <h3>
-                                CSS3
-                            </h3>
+            <div class="col-sm-4">
+                        
+                           
+    <div class="col-sm-10 buscar-equipo ">
+      <input type="text" class="form-control" id="equipo" placeholder="Equipo">
+    </div>
+
+    <div class="col-sm-10 buscar-equipo">
+      <input type="text" class="form-control" id="equipo" placeholder="Equipo hallado">
+     </div>
                         </img>
                     </div>
                 </div>
                 <!-- end of row-->
-                <br>
-                    <br>
-                        <h3>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at dolorem, unde eveniet quos officia, ab vel voluptas earum aut saepe alias dolor excepturi non, minus officiis architecto. Nostrum corporis tenetur, nemo cupiditate laborum, quibusdam pariatur veniam eos possimus optio ex earum magni facere. Vel maxime, quod vero ad ullam!
-                        </h3>
-                    </br>
-                </br>
+                
             </div>
             <!-- end of container -->
             <img class="banner" src="img/people.png">

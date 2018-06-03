@@ -1,173 +1,195 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
-
-body{
-	font-family: 'Dosis', sans-serif;
-	font-size: 200%;
-	color: #fff;
-	text-shadow: 1px 1px 1px #666;
-
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 200%;
+    color: #fff;
+    text-shadow: 1px 1px 1px #666;
 }
-<p></p>
-.navbar{
-	background-color: #297fb8;
-	border-bottom: 1px solid #5398c6;
-	padding: 1& 0;
+<p></p>.navbar {
+    background-color: #297fb8;
+    border-bottom: 1px solid #5398c6;
+    padding: 1& 0;
 }
-
-.navbar-brand{
-	min-height: 55px;
-	padding: 0 15px 5px;
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
 }
-.navbar-brand img{
-	height: 100px;
-	width: 200px;
-	padding-top: 0.5em;
+.navbar-brand img {
+    height: 100px;
+    width: 200px;
+    padding-top: 0.5em;
 }
-
-.navbar-nav li{
-	padding-right: 20px;
-
+.navbar-nav li {
+    padding-right: 20px;
 }
-.navbar-nav li{
-	padding-right: 20px;
-	text-align:center;
+.navbar-nav li {
+    padding-right: 20px;
+    text-align: center;
 }
-
-.navbar-inverse .navbar-nav li a{
+.navbar-inverse .navbar-nav li a {
     color: #fff;
 }
-
-.navbar-inverse .navbar-nav li a:hover{
+.navbar-inverse .navbar-nav li a:hover {
     background-color: #5398c6;
 }
+.navbar-header {
+    padding-bottom: 5px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #5398c6;
+    padding: 40px;
+    padding-bottom: 12px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #5398c6;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    border-color: #5398c6;
+}
+img.banner {
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+}
+h1 {
+    font-size: 300%;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #666;
+}
+h2 {
+    font-size: 210%;
+}
+h3 {
+    font-size: 150%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+/* Formilario de crear equipo*/
 
-.navbar-header{
-	padding-bottom: 5px;
+div#form-registrar-equipos {
+    margin: 0.4em auto;
+    width: 800px;
+    border: 2px solid white;
+    padding: 20px;
+}
+#titulo-formulario {
+    font-size: 75px;
+    font-family: 'Oswald', sans-serif;
+}
+div#form-registrar-equipos input {
+    border: 2px solid white;
+    padding: 20px;
+    margin-top: 1em;
+    margin: .2em 0;
+}
+div#form-registrar-equipos label {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+div#form-registrar-equipos button {
+    position: relative;
+    float: center;
+    left: 5em;
+    margin-top: 10px;
+}
+div.logo_liga img {
+    width: 325px;
+    position: relative;
+    left: 3em;
+}
+/* Formilario de crear equipo*/
+
+/*Estilos consultar equipo*/
+
+ .img-reus img { 
+	height: 50px;
+	border-radius: 30px;
 }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-	border-color:  #5398c6;
-	padding: 40px;
-	padding-bottom: 12px;
+div.relleno{
+background-color: rgba(255,164,032);
+padding: 50px;
 }
 
-.navbar-inverse .navbar-toggle{
-	border-color: #5398c6;
-}
-
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
- border-color: #5398c6;
-}
-
-img.banner{
-	width:100%;
-	max-width: 100%;
-	height: 600px;
-}
-
-h1{
-  font-size: 300%;
-  font-weight: 800;
-  text-shadow: 2px 2px 2px #666;
-}
-
-h2{
-	font-size: 210%;
-}
-
-h3{
-	font-size: 150%;
-	max-width: 80%;
-	margin: 0 auto;
+div.buscar-equipo input{
+position: relative;
+text-align: center;
+left: 33em;
 }
 
 p {
-
-    font-size: 120%; 
+    font-size: 120%;
     padding: 6%;
 }
 img {
-	margin: 0 auto;
-
+    margin: 0 auto;
 }
-
 #icon {
-	max-width: 200px;
-	margin: 1% auto;
+    max-width: 200px;
+    margin: 1% auto;
 }
-
 .social {
- font-size: 350%;
- margin:  auto;
+    font-size: 350%;
+    margin: auto;
 }
-
 .social a {
-	padding: 3%;
-	color: #fff;
+    padding: 3%;
+    color: #fff;
 }
-
 .social a:hover {
-	padding: 3%;
-	color: #d5d5d5;
+    padding: 3%;
+    color: #d5d5d5;
 }
-
-#home{
-	padding-top: 60px;
+#home {
+    padding-top: 60px;
 }
-
-#about{
-	padding: 70px 0;
-	background-color: #1fb8eb;
+#about {
+    padding: 70px 0;
+    background-color: #1fb8eb;
 }
-
-#features{
-	padding: 70px 0 50px;
-	background-color: #ff9800;
+#features {
+    padding: 70px 0 50px;
+    background-color: #ff9800;
 }
-
-#portfolio{
-padding: 70px 0 50px;
-background-color: #00b2ca; 
+#portfolio {
+    padding: 70px 0 50px;
+    background-color: #00b2ca;
 }
-
-#connect{
- padding: 0 0 12%;
- background-color: #673ab7;
+#connect {
+    padding: 0 0 12%;
+    background-color: #673ab7;
 }
-
-.row{
-	margin: 0;
+.row {
+    margin: 0;
 }
-
-@media (max-width: 768px){
-	h1{
-		font-size: 170%;
-	}
-    
-    h2{
-		font-size: 160%;
-	}
-    
-     h2{
-		font-size: 120%;
-		max-width: 90&;
-	}
-
-     p{
-     	padding-top: 3%;
-     	font-size: 100%;
-     }
-     img#code {
-     	max-width: 160px;
-     }
-     .col-sm-4 #icon{
-     	max-width: 90px;
-     }
-      .col-sm-4 #icon{
-     	max-width: 90px;
-     	padding-bottom: 8%;
-     }
-     .social {
-     	font-size: 70px;
-     }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 170%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    h2 {
+        font-size: 120%;
+        max-width: 90&;
+    }
+    p {
+        padding-top: 3%;
+        font-size: 100%;
+    }
+    img#code {
+        max-width: 160px;
+    }
+    .col-sm-4 #icon {
+        max-width: 90px;
+    }
+    .col-sm-4 #icon {
+        max-width: 90px;
+        padding-bottom: 8%;
+    }
+    .social {
+        font-size: 70px;
+    }
 }
