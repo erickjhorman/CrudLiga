@@ -14,6 +14,7 @@ class equipoController extends Controller
     public function index()
     {
         return view('home');
+        
     }
 
     /**
@@ -23,7 +24,7 @@ class equipoController extends Controller
      */
     public function create()
     {
-        //
+        return view('equipos.create');
     }
 
     /**
@@ -34,7 +35,7 @@ class equipoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
@@ -45,7 +46,7 @@ class equipoController extends Controller
      */
     public function show($id)
     {
-        //
+        
     }
 
     /**
@@ -68,7 +69,7 @@ class equipoController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
     }
 
     /**
@@ -79,6 +80,6 @@ class equipoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        
     }
 }
