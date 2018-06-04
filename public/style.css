@@ -133,6 +133,16 @@ div#equipo_buscar input {
 #titulo-formulario {
     font-size: 75px;
     font-family: 'Oswald', sans-serif;
+
+
+}
+div.tabla_consulta  {
+	border: 2px solid white;
+	
+	position: relative;
+	left: 20em;
+	top: 8px;
+	width: 500px;
 }
 /*Termina Estilos consultar equipo  */
 
@@ -140,7 +150,7 @@ div#equipo_buscar input {
 
 div.form-actualizar-equipos {
     margin: 0.4em auto;
-    width: 800px;
+    width: 1000px;
     border: 2px solid white;
     padding: 20px;
 }
@@ -167,8 +177,29 @@ div.form-actualizar-equipos button {
     margin-top: 10px;
 }
 
-div.form-actualizar-equipos label.equipo_buscar{
-    font-size: 30px;
+.form-actualizar-equipos label.equipo_buscar{
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    padding-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    transform:scaleX(1.5);
+    
+}
+
+.form-actualizar-equipos input.equipo_buscar{
+    width: 200px;
+    position: relative;
+    left: 20em;
+    margin-bottom: 14px;
+  
+}
+
+div.boton_buscar {
+  position: relative;
+  bottom: 18.7em;
+  left: 15em;
+
 }
 
 /*Terminado Estilos actualizar equipo */

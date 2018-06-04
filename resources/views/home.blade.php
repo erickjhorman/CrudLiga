@@ -177,16 +177,55 @@
       <input type="text" class="form-control" id="equipo" placeholder="Equipo">
     </div>
 
-    <div class="col-sm-10 buscar-equipo">
-      <input type="text" class="form-control" id="equipo" placeholder="Equipo hallado">
-     </div>
+  
          <div class="form-group row">
     <div class="col-sm-10">
       <button type="submit" class="btn btn-primary btn-lg">BUSCAR</button>
     </div>
   </div>
 
+ <div class="tabla_consulta"> 
+      <!-- begining of the table-->
+<table class="table table-sm ">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Equipo</th>
+      <th scope="col">Ciudad</th>
+      <th scope="col">Director</th>
+      <th scope="col">Estadio</th>
+      <th scope="col">Año</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>@fat</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+      <td>@twitter</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
+<!-- end of the table-->
                         </img>
                     </div>
                 </div>
@@ -202,7 +241,7 @@
                     <br>
                         <br>
                             <div class="row">
-     <div class="form-actualizar-equipos">
+     <div class="form-actualizar-equipos clearfix" >
 
      <form> <!-- begining of  the form-->
     <fieldset>
@@ -210,11 +249,11 @@
     <div class="form-group row">
       <label for="inputEmail3" class="col-sm-2 equipo_buscar">Equipo a buscar</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control"  placeholder="Equipo a buscar">
+      <input type="text" class="form-control equipo_buscar"  placeholder="Escriba el equipo aqui">
     </div>   
     <label for="inputEmail3" class="col-sm-2 nombre">Nombre</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+      <input type="text" class="form-control " id="nombre" placeholder="Nombre">
     </div>
     <br>
     <label for="inputEmail3" class="col-sm-2 Ciudad">Ciudad</label>
@@ -238,6 +277,12 @@
 <div class="form-group row">
     <div class="col-sm-10">
       <button type="submit" class="btn btn-primary btn-lg">ACTUALIZAR</button>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-sm-10 boton_buscar">
+      <button type="submit" class="btn btn-primary btn-lg ">BUSCAR</button>
     </div>
   </div>
  <fieldset>
